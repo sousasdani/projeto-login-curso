@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <main>
@@ -15,7 +17,22 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
                 <form action="login.php" required autocomplete="on">
-
+                        <div class="campo">
+                            <span class="material-symbols-outlined">person</span>
+                            <label for="email-login"></label>
+                            <input type="email" name="email" id="email-login" placeholder="seu e-mail">
+                        </div>
+                        <div class="campo">
+                            <span class="material-symbols-outlined">vpn_key</span>
+                            <label for="senha-login"></label>
+                            <input type="password" name="senha" id="senha-login" placeholder="sua senha" minlength="8" maxlength="15">
+                        </div>
+                        <div class="button-entrar">
+                            <input type="submit" value="Entrar">
+                        </div>
+                        <div class="button-esqueci">
+                            <a href="esqueci.html" class="botao">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
+                        </div>
                 </form>
             </div>
         </section>

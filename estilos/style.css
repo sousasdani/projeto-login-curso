@@ -8,7 +8,7 @@
 
 }
 body {
-    background: linear-gradient(to right, #49a09d, #5f2c82);
+    background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
 }
@@ -30,7 +30,7 @@ main {
     border: 0 solid transparent;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
-    width: 270px;
+    width: 250px;
     height: 515px;
 }
 
@@ -39,7 +39,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left bottom;
-    height: 41%;
+    height: 38%;
 }
 
 .formularios h1 {
@@ -50,5 +50,84 @@ main {
 
 .formularios p {
     padding: 10px;
+    font-size: 0.8em;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.campo {
+    background-color: #5f2c82;
+    border: 2px solid #5f2c82;
+    display: block;
+    width: 90%;
+    height: 40px;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.campo span {
+    color: #ffffff;
+    font-size: 1.9em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo input {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px solid transparent;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-41px);
+    margin-left: 45px;
+}
+
+.button-entrar input {
+    display: block;
+    margin: auto;
+    background-color: #53AAA7;
+    height: 40px;
+    width: 90%;
+    border: 0px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.button-entrar:hover input {
+    background-color: #3d807d;
+}
+
+.button-esqueci {
+    border: 2px solid rgba(134, 148, 207, 0.959);
+    height: 40px;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.541);
+    cursor: pointer;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.button-esqueci:hover {
+    background-color: #67c4c0;
+}
+
+.button-esqueci a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #556c75;
+}
+
+.button-esqueci span {
+    color: #556c75;
     font-size: 0.9em;
+    width: 25px;
+    padding: 2px;
 }
