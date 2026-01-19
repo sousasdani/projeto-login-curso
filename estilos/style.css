@@ -84,8 +84,9 @@ main {
     border: 0px solid transparent;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-41px);
     margin-left: 45px;
+
+    transform: translateY(-41px);
 }
 
 .button-entrar input {
