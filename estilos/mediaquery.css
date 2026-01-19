@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-@media  (min-width: 768px) {
+@media screen and (min-width: 768px) {
     body {
        background-image: linear-gradient(to bottom, #5D3885, #4C9099);
     }
 
     .login {
-        width: 75vw;
+        width: 90vw;
         height: 290px;
         display: flex;
         margin: auto;
@@ -19,13 +19,13 @@
     }
 }
 
-@media (min-width: 990px) {
+@media screen and (min-width: 992px) {
     body {
        background-image: linear-gradient(to bottom, #5D3885, #4C9099);
     }
 
     .login {
-        width: 75vw;
+        width: 90vw;
         height: 330px;
         margin: auto;
         margin-top: 80px;
